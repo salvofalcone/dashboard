@@ -5,23 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login Page</title>
+    <title>Log In</title>
 </head>
 <body>
     <main>
         <div class="mainContentLogin">
             <div class="loginContent">
+
+                <div class="logo">
+                    <a href="./index.html">
+                    <img src="./assets/images/edgemonyair.png" alt="">
+                    </a>
+                </div>
+
+                <h1>Log In</h1>
+
                 <form action="">
                     <div class="inputGroup">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="mariorossi@email.it">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Email">
                     </div>
                     <div class="inputGroup">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" placeholder="Inserisci la tua password">
+                        <label for="password"></label>
+                        <input type="password" id="password" name="password" placeholder="Pasword">
                     </div>
-                    <input type="submit" value="Submit">
-                    <a class="button" href="index.html"> Go to home page</a>
+                    
+                    <div class="submitzone">
+                        <input type="submit" value="Log In">
+                    </div>
+
+                    <div class="registered">
+                        <p>Don't have an account? <a href="./register.html">Sign In</a></p>
+                      </div>
+
                   </form>
             </div>
         </div>
